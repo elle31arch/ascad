@@ -1,6 +1,7 @@
-<nav class="main-nav dropdown-click">
-  <ul>
+<nav class="main-nav mobile-nav"><ul>
   {.repeated section items}
+
+
 
     <li class="{collection.typeLabel}-collection{.section active} active-link{.end}{.if collection.folder} folder{.end}{.if folderActive} active-link active-folder{.end}{.section externalLink} external-link{.end}">
 
@@ -39,6 +40,8 @@
 
     </li>
 
+
+
   {.end}
-  </ul>
+</ul>
 </nav>
