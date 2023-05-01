@@ -54,10 +54,8 @@
               </a>
               <p class=text-black"><squarespace:block-field id="emailBlock" label="Email Content" /></p>
               <!--a class="text-black" href="mailto:info@31-31.org"></a-->
-          </div>
 
-
-          <div id="logo" data-content-field="site-title">
+              <div id="logo" data-content-field="site-title">
           {.section website}
             <h1 class="logo{.section logoImageUrl} image{.or} site-title{.end}">
               <a href="/">
@@ -73,6 +71,10 @@
             {.end}
           {.end}
         </div>
+          </div>
+
+
+          
         </div>
 
         {.section website}
