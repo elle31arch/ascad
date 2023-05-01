@@ -29,22 +29,7 @@
           <nav id="mobileMenuLink" class="main-nav clear"><ul><li class="active-link"><a>Menu</a></li></ul></nav>
         </div>
 
-        <div id="logo" data-content-field="site-title">
-          {.section website}
-            <h1 class="logo{.section logoImageUrl} image{.or} site-title{.end}">
-              <a href="/">
-                {.if logoImageUrl}
-                  <img src="{logoImageUrl}?format=750w" alt="{siteTitle}" />
-                {.or}
-                  {siteTitle}
-                {.end}
-              </a>
-            </h1>
-            {.section siteTagLine}
-              <div class="logo-subtitle" data-content-field="site-tagline">{@}</div>
-            {.end}
-          {.end}
-        </div>
+        
 
         <script>
           Y.use('squarespace-ui-base', function(Y) {
@@ -60,6 +45,22 @@
             <squarespace:navigation navigationId="secondaryNav" template="navigation" />
           </nav>
           <div class="contact-sidebar-info">
+          <div id="logo" data-content-field="site-title">
+          {.section website}
+            <h1 class="logo{.section logoImageUrl} image{.or} site-title{.end}">
+              <a href="/">
+                {.if logoImageUrl}
+                  <img src="{logoImageUrl}?format=750w" alt="{siteTitle}" />
+                {.or}
+                  {siteTitle}
+                {.end}
+              </a>
+            </h1>
+            {.section siteTagLine}
+              <div class="logo-subtitle" data-content-field="site-tagline">{@}</div>
+            {.end}
+          {.end}
+        </div>
               <a class="text-black" href="/">
                 <squarespace:block-field id="contactBlock" label="Contact Content" />
                 <!--p class="text-black">© Nick Poe Studio LLC 2021</p>
