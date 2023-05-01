@@ -36,7 +36,7 @@
             Y.one('h1.logo').plug(Y.Squarespace.TextShrink);
           });
         </script>
-
+          
         <div id="topNav" data-content-field="navigation"">
           <nav id="mainNavigation" class="main-nav desktop-nav">
             <squarespace:navigation navigationId="mainNav" template="navigation" />
@@ -44,7 +44,7 @@
           <nav id="secondaryNavigation" class="main-nav desktop-nav">
             <squarespace:navigation navigationId="secondaryNav" template="navigation" />
           </nav>
-          
+          <div class="contact-sidebar-info">
               <a class="text-black" href="/">
                 <squarespace:block-field id="contactBlock" label="Contact Content" />
                 <!--p class="text-black">© Nick Poe Studio LLC 2021</p>
@@ -56,7 +56,7 @@
               <!--a class="text-black" href="mailto:info@31-31.org"></a-->
           </div>
 
-          <div class="contact-sidebar-info">
+
           <div id="logo" data-content-field="site-title">
           {.section website}
             <h1 class="logo{.section logoImageUrl} image{.or} site-title{.end}">
