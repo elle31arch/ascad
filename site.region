@@ -38,6 +38,22 @@
         </script>
           
         <div id="topNav" data-content-field="navigation"">
+        <div id="logo" data-content-field="site-title">
+          {.section website}
+            <h1 class="logo{.section logoImageUrl} image{.or} site-title{.end}">
+              <a href="/">
+                {.if logoImageUrl}
+                  <img src="{logoImageUrl}?format=750w" alt="{siteTitle}" />
+                {.or}
+                  {siteTitle}
+                {.end}
+              </a>
+            </h1>
+            {.section siteTagLine}
+              <div class="logo-subtitle" data-content-field="site-tagline">{@}</div>
+            {.end}
+          {.end}
+        </div>
           <nav id="mainNavigation" class="main-nav desktop-nav">
             <squarespace:navigation navigationId="mainNav" template="navigation" />
           </nav>
@@ -55,22 +71,7 @@
               <p class=text-black"><squarespace:block-field id="emailBlock" label="Email Content" /></p>
               <!--a class="text-black" href="mailto:info@31-31.org"></a-->
 
-              <div id="logo" data-content-field="site-title">
-          {.section website}
-            <h1 class="logo{.section logoImageUrl} image{.or} site-title{.end}">
-              <a href="/">
-                {.if logoImageUrl}
-                  <img src="{logoImageUrl}?format=750w" alt="{siteTitle}" />
-                {.or}
-                  {siteTitle}
-                {.end}
-              </a>
-            </h1>
-            {.section siteTagLine}
-              <div class="logo-subtitle" data-content-field="site-tagline">{@}</div>
-            {.end}
-          {.end}
-        </div>
+              
           </div>
 
 
