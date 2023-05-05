@@ -61,15 +61,7 @@
             <squarespace:navigation navigationId="secondaryNav" template="navigation" />
           </nav>
           <div class="contact-sidebar-info">
-              <a class="text-black" href="/">
-                <squarespace:block-field id="contactBlock" label="Contact Content" />
-                <!--p class="text-black">© Nick Poe Studio LLC 2021</p>
-                <p class="text-black">31 Architectural Design & Build</p>
-                <p class="text-black">New York & Los Angeles</p-->
-                <br>
-              </a>
-              <p class=text-black"><squarespace:block-field id="emailBlock" label="Email Content" /></p>
-              <!--a class="text-black" href="mailto:info@31-31.org"></a-->
+              <squarespace:block-field id="contactBlock" label="Contact Content" />
 
               
           </div>
