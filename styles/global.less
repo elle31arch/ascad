@@ -88,6 +88,11 @@ nav ul, nav ol { margin: 0; }
   #pageWrapper, #footerWrapper { float: none; margin-left: @sidebarWidth; }
 }
 
+.header-position-left {
+  #headerWrapper { position: fixed; float: none; z-index:1000; }
+  #pageWrapper, #footerWrapper { float: none; margin-left: @sidebarWidth; }
+}
+
 .header-position-right {
   #headerWrapper { float: right; }
   #pageWrapper, #footerWrapper { float: left; padding-left: 0; padding-right: @sidebarPadding; max-width: @contentWidth - @sidebarPadding; }
@@ -430,7 +435,6 @@ body.header-position-top.collection-type-blog article, .header-sidebar-position-
 
 
 /****************** CUSTOM STYLES ***************/
-/****************** CUSTOM STYLES ***************/
 body a, body a:active {
   color: #191ca9;
   }
@@ -486,5 +490,8 @@ body a, body a:active {
   #headerWrapper, header#header, #topNav {
     overflow: unset;
 }
+
+
+
 
   /*************** END CUSTOM STYLES ****************/
