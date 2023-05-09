@@ -1,3 +1,5 @@
+alert('hi');
+
 Y.use('node', 'squarespace-gallery-ng', function(Y) {
   // Borrowed from rendering.
   function getHeightForWidth(originalWidth, originalHeight, width) {
@@ -32,7 +34,7 @@ Y.use('node', 'squarespace-gallery-ng', function(Y) {
     // Mobile Nav ///////////////////////////////////
 
      Y.one('#mobileMenuLink a').on('click', function(e){
-      alert('hi')
+      alert('hi');
        var mobileMenuHeight = parseInt(Y.one('#mobileNav .wrapper').get('offsetHeight'),10);
        if (Y.one('#mobileNav').hasClass('menu-open')) {
          new Y.Anim({ node: Y.one('#mobileNav'), to: { height: 0 }, duration: 0.5, easing: 'easeBoth' }).run();
