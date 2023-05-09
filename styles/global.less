@@ -65,6 +65,7 @@ nav ul, nav ol { margin: 0; }
 
 
 
+
 /* LAYOUT (WIDTHS & PADDING)
 ************************************************/
 
@@ -73,10 +74,6 @@ nav ul, nav ol { margin: 0; }
 
 .site-alignment-center #canvasWrapper { margin: @topPadding auto; }
 
-.contact-sidebar-info{
-  position: absolute;
-  bottom: 150px;
-}
 
 
 // HEADER
@@ -160,6 +157,7 @@ nav ul, nav ol { margin: 0; }
 #headerBlock { min-height: @vgrid; }
 
 
+
 // PAGE
 #page { position: relative; }
 
@@ -216,6 +214,7 @@ nav ul, nav ol { margin: 0; }
 
 
 /* Products */
+
 
 #categoryNav {
   overflow: hidden;
@@ -428,3 +427,57 @@ body.header-position-top.collection-type-blog article, .header-sidebar-position-
 .summary-metadata-item, .summary-metadata-item a {
   color: @blogMetaColor;
 }
+
+
+/****************** CUSTOM STYLES ***************/
+body a, body a:active {
+  color: #191ca9;
+  }
+  
+  #headerWrapper, header#header, #topNav {
+    height: 100%;
+  }
+  
+  #topNav {
+    overflow-y: scroll;
+  }
+  
+  #topNav nav .folder ul {
+    margin-left: 10px;
+  }
+  
+  #headerWrapper, header#header, #topNav {
+      overflow: scroll;
+      padding-bottom: 50px;
+      height: 100%;
+  }
+  
+  .slicknav_menu {
+    display:none;
+  }
+  
+  li.accordion a {
+     outline: 0;
+  }
+  
+  #custom-index{display:none;}
+  
+  .text-black, .text-black:hover{
+    color: #3b3b3b;
+  }
+  
+  .contact-sidebar-info{
+    line-height: 1.6em;
+  }
+  
+  .contact-sidebar-info p, .contact-sidebar-info a{
+    margin: 0;
+    line-height: 1.6em;
+    color: black;
+  }
+  
+  .contact-sidebar-info a:visited {
+    color:black
+  }
+
+  /*************** END CUSTOM STYLES ****************/
