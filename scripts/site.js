@@ -1,5 +1,3 @@
-alert('hi');
-
 Y.use('node', 'squarespace-gallery-ng', function(Y) {
   // Borrowed from rendering.
   function getHeightForWidth(originalWidth, originalHeight, width) {
