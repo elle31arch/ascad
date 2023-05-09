@@ -59,9 +59,9 @@ Y.use('node', 'squarespace-gallery-ng', function(Y) {
 
       gallerySlideshow();
 
-      // Y.one('#gridButton').on('click', function(e) {
-      //   toggleGridVisibility();
-      // });
+      Y.one('#gridButton').on('click', function(e) {
+        toggleGridVisibility();
+      });
 
       var thumbList = Y.all('#thumbnails .thumb');
       Y.one('#thumbnails').delegate('click', function(e) {
