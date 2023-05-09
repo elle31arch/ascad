@@ -36,7 +36,7 @@
             Y.one('h1.logo').plug(Y.Squarespace.TextShrink);
           });
         </script>
-          
+
         <div id="topNav" data-content-field="navigation"">
         <div id="logo" data-content-field="site-title">
           {.section website}
@@ -61,13 +61,8 @@
             <squarespace:navigation navigationId="secondaryNav" template="navigation" />
           </nav>
           <div class="contact-sidebar-info">
-              <squarespace:block-field id="contactBlock" label="Contact Content" />
-
-              
+          <squarespace:block-field id="contactBlock" label="Contact Content" />
           </div>
-
-
-          
         </div>
 
         {.section website}
