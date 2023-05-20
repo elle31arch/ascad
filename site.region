@@ -25,9 +25,9 @@
       <div id="headerWrapper">
       <header id="header">
 
-        <div id="topNavMobile">
+        <!--div id="topNavMobile">
           <nav id="mobileMenuLink" class="main-nav clear"><ul><li class="active-link"><a>Menu</a></li></ul></nav>
-        </div>
+        </div-->
 
         
 
