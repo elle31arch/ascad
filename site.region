@@ -15,12 +15,12 @@
   <div id="canvasWrapper">
     <div id="canvas">
 
-      <div id="mobileNav">
+      <!--div id="mobileNav">
         <div class="wrapper">
           <squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
           <squarespace:navigation navigationId="secondaryNav" template="mobile-navigation" />
         </div>
-      </div>
+      </div-->
 
       <div id="headerWrapper">
       <header id="header">
